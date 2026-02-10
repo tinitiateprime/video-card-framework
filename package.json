@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "playwright": "^1.58.2"
+  },
+  "name": "video-card-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "export.js",
+  "dependencies": {
+    "express": "^5.2.1",
+    "playwright-core": "^1.58.2"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

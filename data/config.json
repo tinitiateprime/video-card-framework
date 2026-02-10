@@ -1,0 +1,28 @@
+{
+  "defaultFormat": "vertical",
+  "formats": {
+    "vertical": {
+      "label": "Vertical (9:16) — Reels / Shorts",
+      "resolution": "1080×1920",
+      "aspectW": 9,
+      "aspectH": 16,
+      "direction": "y",
+      "headerMax": 60,
+      "bodyMax": 420,
+      "footerMax": 90,
+      "safePadClass": "safe-pad-vertical"
+    },
+    "horizontal": {
+      "label": "Horizontal (16:9) — YouTube",
+      "resolution": "1920×1080",
+      "aspectW": 16,
+      "aspectH": 9,
+      "direction": "x",
+      "headerMax": 80,
+      "bodyMax": 650,
+      "footerMax": 120,
+      "safePadClass": "safe-pad-horizontal"
+    }
+  },
+  "slides": ["./slides/01.md", "./slides/02.md", "./slides/03.md", "./slides/04.md", "./slides/05.md", "./slides/06.md"]
+}
